@@ -159,3 +159,20 @@ header {
     font-size: 18px;
     font-weight: 500;
 }
+
+/* Awlays keep a positive mindset Section  */
+
+.positive-mindset-banner-section {
+    margin: 150px;
+}
+
+.positive-mindset-content {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(./images/watch.png), url(./images/gradient1.png);
+    
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

@@ -64,3 +64,52 @@ header {
     background: #005FAC;
     border: 2px solid #fff;
 }
+
+/* My failures of previous year Section  */
+.previous-year-section {
+    width: 100%;
+    display: flex;
+    padding: 100px 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.coloumn {
+    width: 50%;
+}
+
+
+.coloumn .previous-section-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.previous-section-description {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.list-item {
+    list-style-type: square;
+}
+.list-item li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.list-item li::before {
+    content: '\2713';
+    display: inline-block;
+    color: #299B48;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}

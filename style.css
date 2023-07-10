@@ -113,3 +113,49 @@ header {
     font-weight: bold;
     font-size: 20px;
 }
+
+
+/* My Plans Section  */
+
+.my-plan {
+    margin: 100px 200px;
+}
+
+.my-plan-header-title {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.my-plan-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-plan-box {
+    text-align: center;
+}
+.my-plan-box .plan-box-image{
+    width: 90px;
+    height: 90px;
+}
+
+.my-plan-box-title {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.my-plan-box-description {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}

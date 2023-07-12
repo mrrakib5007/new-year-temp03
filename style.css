@@ -8,7 +8,6 @@
 }
 
 header {
-    width: 100vw;
     height: 100vh;
     background: url(./images/banner/banner3.png);
     background-size: cover;
@@ -174,5 +173,136 @@ header {
     background-position: center;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 60px 50px 0px;
+}
 
+.positive-banner-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.positive-banner-btn {
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 13px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #005FAC;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.positive-banner-btn:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background: #005FAC;
+
+}
+
+
+/* Footer Section  */
+
+.footer-container {
+    min-height: 400px;
+    background: #151414;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-column {
+    max-width: 450px;
+    padding: 20px 30px;
+}
+
+/* Footer left side  */
+.footer-left-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px 0;
+}
+
+.footer-email {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-mobile {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-social-media-icon{
+    display: flex;
+}
+
+.footer-social-media-icon img{
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    border: 1px dotted #151414;
+    border-radius: 50%;
+    padding: 2px;
+    transition: all 0.3s;
+}
+
+.footer-social-media-icon img:hover{
+    border: 1px dotted #fff;
+}
+
+/* Footer right side  */
+
+.footer-right-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-email-box {
+    outline: none;
+    border: 1px solid #FFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px 0 10px;
+    font-size: 15px;
+}
+
+.footer-email-sumbit-btn {
+    outline: none;
+    min-width: 80px;
+    border: 1px solid #005FAC;
+    background: #005FAC;
+    color: #FFF;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-email-sumbit-btn:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #005FAC;
 }
